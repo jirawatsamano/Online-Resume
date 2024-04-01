@@ -4,11 +4,78 @@
 <head>
     <meta charset="UTF-8">
     <title>My Resume</title>
+
+    <style>
+        html, body {
+            height: 100%;
+            margin: 5;
+            padding: 5;
+            width: 100%;
+        }
+        </style>
 </head>
 
 <body>
-    <h1>Jirawat Samano</h1>
-    <img src="Picture/Profile Jirawat.jpg" height="200" alt="Profile Picture">
+    <div style="text-align: center;">
+        <p style="font-size: 50px; color: blue;">Jirawat Samano</p>
+    </div>
+    <div style="text-align: center;">
+        <img src="Picture/Profile Jirawat.jpg" height="200" alt="Profile Picture">
+    </div>
+    <div style="text-align: left; margin-left: 10px; margin-right: 10px;">
+        <tagname style="color: blue;">
+
+            <p>
+                <h2>Summary</h2>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Business Analyst in Software Development Production management Web Application.
+                    Gathering user requirements, data and design SQL database. Design UX/UI, integration,
+                    testing and deployment.
+            </p>
+        <hr />
+            <p>
+                <h2>Education</h2>
+                <ul>
+                    <li>
+                        <tagname style="font-weight: bold;">King Mongkut's University of Technology Thonburi</tagname>
+                        <ul>
+                            <li>
+                                Bachelor Degree in Chemical Engineering (2011-2015)
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </p>
+            <hr />
+            <p>
+                <h2>Work Experience</h2>
+                <ul>
+                    <li>
+                        <tagname style="font-weight: bold;">Delta Electronics Southeast Asia & Ocenia (2019 - Present)</tagname>
+                        <ul>
+                            <li>Business Analyst (Jan 2024 - Present)</li>
+                            <li>Senior Manufacturing Supervisor (Mar 2019 -Dec 2023)</li>
+                        </ul>
+                    </li>
+                </ul>
+            </p>
+            <hr />
+            <p>
+                <h2>Skills</h2>
+                <ul>
+                    <li><tagname style="font-weight: bold;">Project Management</tagname></li>
+                    <li><tagname style="font-weight: bold;">Management Skills</tagname>
+                    <li><tagname style="font-weight: bold;">Organiaztion Skills</tagname></li>
+                    <li><tagname style="font-weight: bold;">Leadership</tagname></li>
+                    <li><tagname style="font-weight: bold;">Business Analysis</tagname></li>
+                    <li><tagname style="font-weight: bold;">Data Analytics</tagname></li>
+                    <li><tagname style="font-weight: bold;">Data Visualization</tagname></li>
+                    <li><tagname style="font-weight: bold;">Presentations</tagname></li>
+                </ul>
+            </p>
+            <hr />
+        </tagname>
+    </div>
 </body>
 
 </html>
